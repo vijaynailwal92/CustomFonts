@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+    <com.vijay.customfonts.CustomTextView
+        android:id="@+id/ambleBold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amble Bold"
+        android:textSize="28sp"
+        app:font_name="ambleBold" />
+
+    <com.vijay.customfonts.CustomTextView
+        android:id="@+id/ambleLight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amble Light"
+        android:textSize="28sp"
+        app:font_name="ambleLight" />
+
+    <com.vijay.customfonts.CustomTextView
+        android:id="@+id/ambleRegular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amble Regular"
+        android:textSize="28sp"
+        app:font_name="ambleRegular" />
+
+    <com.vijay.customfonts.CustomTextView
+        android:id="@+id/opRegular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OpenSans Regular"
+        android:textSize="28sp"
+        app:font_name="openSansRegular" />
+
+    <com.vijay.customfonts.CustomTextView
+        android:id="@+id/opItalic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OpenSans-Italic"
+        android:textSize="28sp"
+        app:font_name="openSansItalic" />
+
+    <Button
+        android:id="@+id/pacifico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pacifico" />
+
+
+</LinearLayout>
